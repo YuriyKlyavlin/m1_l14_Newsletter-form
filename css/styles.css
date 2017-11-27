@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 0;
+	background-color: #BAC5DB;
+}
+.container {
+	position: relative;
+	width: 666px;
+	height: 383px;
+	margin: 104px auto;
+	background-color: #353A45;
+	border-radius: 30px;
+	box-shadow: 0 20px 50px rgba(100, 100, 100, .5);
+	border-top: 1px solid transparent;
+}
+.image {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+}
+.close-button {
+	position: absolute;
+	transform: translate(-50%, 50%);
+	right: 0;
+	cursor: pointer;
+	opacity: .5;
+}
+.close-button:hover {
+	opacity: 1;
+	transition: all .1s linear;
+}
+.title {
+	text-align: center;
+	margin: 70px 0 20px;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	color: #538FFF;
+}
+.subtitle {
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color: #FFF;
+}
+.fieldset {
+	width: 545px;
+	margin: 0 auto 35px;
+	border: none;
+}
+.input__email {
+	width: 355px; height: 50px;
+	padding-left: 15px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin-right: 10px;
+}
+.input__button {
+	vertical-align: top;
+	width: 175px; height: 50px;
+	padding: 0;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	background-color: #538FFF;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	cursor: pointer;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+.input__button:hover {
+	background-color: #3463bc;
+	transition: background-color .1s linear;
+}
+.info {
+	margin: 0;
+	text-align: center;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+	color: #FFF;
+	opacity: .3;
+}
